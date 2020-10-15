@@ -1,0 +1,14 @@
+include mixins.pug
+
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="description" content="Тестовое задание Jug.Ru")
+    title Тестовое задание Jug.Ru (Салабай В.Э.)
+  body
+    section.wrapper
+      include includes/promo/promo.pug
+      +modal('go-away', 'come-back', 'Я кликнул просто посмотреть')
+        include includes/questions/questions.pug

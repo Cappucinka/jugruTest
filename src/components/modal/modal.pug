@@ -1,0 +1,5 @@
+mixin modal(idModal, idForButtonClose, textForButtonClose)
+  .modal(id=idModal)
+    if block
+      block
+    a(href="#" id=idForButtonClose).modal__button-close= textForButtonClose

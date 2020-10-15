@@ -1,0 +1,22 @@
+@import '~normalize.css';
+@import 'reset.css';
+@import 'colors.scss';
+@import 'typography.scss';
+@import 'mixins.scss';
+@import 'includes.scss';
+
+
+body {
+  font-family: $font-montserrat;
+  font-weight: 400;
+  color: $color-text;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,14 @@
+.questions
+  +frame('question-about-offline__title', 'Я хочу знать, когда будет офлайн').question-about-offline
+    include ../subscription/subscription.pug
+  +frame('question-why__title', 'Идите в жопу!').frame-background-color-black.question-why
+    ul.question-why__answers
+      li.question-why__answer
+        +button-question('Вы свои цены видели?', 'over price')
+      li.question-why__answer
+        +button-question('Доклады ни о чем', 'bullshit')
+      li.question-why__answer
+        +button-question('У вас там всё хорошо?', 'are you crazy')
+      li.question-why__answer
+        +button-question('Денег нет, но вы держитесь', 'no money')
+    p.question-why__thank Спасибо, что поделились!

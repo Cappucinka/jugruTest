@@ -1,0 +1,31 @@
+.frame {
+  flex: 1 1 50%;
+  max-width: 610px;
+  height: 498px;
+  box-sizing: border-box;
+  padding: 50px 50px 0;
+  border-radius: 20px;
+  border: 1px solid $color-border;
+
+  &-background-color-black {
+    background-color: #000;
+    color: #fff;
+  }
+
+  &__title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+      line-height: 21px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    max-width: none;
+    border: none;
+  }
+}

@@ -1,0 +1,48 @@
+.button {
+  display: inline-block;
+  width: 210px;
+  height: 65px;
+  padding: 19px 33px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+
+  &_theme_primary {
+    background-color: $color-button-primary;
+    color: black;
+
+    &:hover {
+      background-color: $color-button-primary-hover;
+    }
+  }
+
+  &_theme_secondary {
+    background-color: $color-button-secondary;
+    color: white;
+
+    &:hover {
+      background-color: $color-button-secondary-hover;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 203px;
+    height: 50px;
+    padding: 14px 33px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  @media screen and (max-width: 500px) {
+    width: 133px;
+    height: 42px;
+    padding: 12px 18px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+}

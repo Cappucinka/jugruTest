@@ -1,0 +1,5 @@
+mixin frame(classTitle, textTitle)
+  .frame(class=attributes.class)
+    h3.frame__title(class=classTitle)= textTitle
+    if block
+      block
