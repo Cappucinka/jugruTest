@@ -7,6 +7,10 @@
     flex-direction: column;
     margin-bottom: 60px;
   }
+
+  @media screen and (max-width: 500px) {
+    margin-bottom: 6px;
+  }
 }
 
 .question-about-offline {
@@ -97,6 +101,10 @@
 
   &__answers {
     text-align: center;
+
+    @media screen and (max-width: 500px) {
+      margin-bottom: 30px;
+    }
   }
 
   &__answer {
@@ -123,7 +131,7 @@
       display: inline-block;
       position: absolute;
       top: -120px;
-      left: 195px;
+      left: calc(50% - 50px);
       width: 100px;
       height: 100px;
       background-image: url(../images/icon-thumbs-up.png);

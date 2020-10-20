@@ -27,6 +27,7 @@
     margin-right: 10px;
     margin-bottom: 20px;
     min-width: 141px;
+    flex-grow: 1;
 
     &::placeholder {
       color: $color-input-placeholder;

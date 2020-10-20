@@ -43,12 +43,27 @@
         top: -3px;
         left: 4px;
       }
+
+      @media screen and (max-width: 500px) {
+        top: 2px;
+        left: 5px;
+        width: 15px;
+        height: 15px;
+        border-bottom-width: 2px;
+        border-left-width: 2px;
+      }
     }
 
     @media screen and (max-width: 768px) {
       font-size: 20px;
       line-height: 26px;
       padding-left: 38px;
+    }
+
+    @media screen and (max-width: 500px) {
+      font-size: 14px;
+      line-height: 18px;
+      padding-left: 20px;
     }
   }
 
